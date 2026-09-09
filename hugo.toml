@@ -1,0 +1,75 @@
+baseURL = "https://donggeunyoo.github.io/"
+languageCode = "en-us"
+title = "Donggeun Yoo"
+theme = "PaperMod"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+pygmentsUseClasses = true
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[params]
+  env = "production"
+  author = "Donggeun Yoo"
+  description = "Linux kernel contributor. Notes on bugs found, patches sent, and how the fixes actually work."
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowCodeCopyButtons = true
+  ShowWordCount = false
+  ShowToc = true
+  TocOpen = false
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  disableSpecial1stPost = false
+  hideMeta = false
+
+  [params.profileMode]
+    enabled = true
+    title = "Donggeun Yoo"
+    subtitle = "Linux kernel contributor. I hunt bugs in the kernel, send the fixes upstream, and write up how they actually work — mostly around the DRM GPU scheduler and drivers."
+    [[params.profileMode.buttons]]
+      name = "Posts"
+      url = "posts"
+    [[params.profileMode.buttons]]
+      name = "Tags"
+      url = "tags"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/donggeunyoo"
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:donggeunyoo.kernel@gmail.com"
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    style = "onedark"
+  [markup.goldmark.renderer]
+    unsafe = false
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+  weight = 10
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 20
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 30
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

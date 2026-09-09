@@ -30,7 +30,7 @@ pygmentsUseClasses = true
   [params.profileMode]
     enabled = true
     title = "Donggeun Yoo"
-    subtitle = "Linux kernel contributor. I hunt bugs in the kernel, send the fixes upstream, and write up how they actually work — mostly around the DRM GPU scheduler and drivers."
+    subtitle = "Linux kernel contributor working on the DRM graphics stack — the GPU scheduler and the amdgpu and V3D drivers. I hunt bugs, send the fixes upstream, and write up how they actually work."
     [[params.profileMode.buttons]]
       name = "Posts"
       url = "posts"

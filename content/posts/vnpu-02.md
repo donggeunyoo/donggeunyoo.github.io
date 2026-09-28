@@ -1,6 +1,6 @@
 ---
 title: "vnpu 개발기 #2 - 개발 환경 세팅"
-date: 2026-09-28
+date: 2026-09-28T18:22:00+09:00
 tags: ["vnpu", "qemu", "accel", "npu"]
 ---
 

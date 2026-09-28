@@ -14,7 +14,7 @@ pygmentsUseClasses = true
 [params]
   env = "production"
   author = "Donggeun Yoo"
-  description = "Linux kernel contributor. Notes on bugs found, patches sent, and how the fixes actually work."
+  description = "Linux kernel contributor working on accel, IOMMU, and PCI."
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowShareButtons = false
@@ -30,7 +30,7 @@ pygmentsUseClasses = true
   [params.profileMode]
     enabled = true
     title = "Donggeun Yoo"
-    subtitle = "Linux kernel contributor working on the DRM graphics stack — the GPU scheduler and the amdgpu and V3D drivers. I hunt bugs, send the fixes upstream, and write up how they actually work."
+    subtitle = "Linux kernel contributor working on accel, IOMMU, and PCI."
     [[params.profileMode.buttons]]
       name = "Posts"
       url = "posts"

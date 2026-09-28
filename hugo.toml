@@ -53,6 +53,7 @@ pygmentsUseClasses = true
     lineNos = false
     style = "onedark"
   [markup.goldmark.renderer]
+    hardWraps = true
     unsafe = false
 
 [[menu.main]]

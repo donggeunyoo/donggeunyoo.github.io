@@ -40,6 +40,6 @@ a에는 sysfs에서 읽은 BAR 0의 시작 물리 주소(0xfebf1000)를 넣었�
 0x564E5055
 ```
 ID는 그대로 나오고, 없는 레지스터는 0, 써도 QEMU는 멀쩡했다.
-0x04는 창 안이라 우리 read 콜백이 받아서 0을 돌려준 것이다.
+0x04는 창 안이라 vnpu의 read 콜백이 받아서 0을 돌려준 것이다.
 
 Repo: [github.com/donggeunyoo/vnpu](https://github.com/donggeunyoo/vnpu)
